@@ -57,7 +57,7 @@ this.buildMap = function(markers) {
     }, function() {
         markers = markers.map(function(m) {
             marker = handler.addMarker(m); // add individual marker to map
-            marker.serviceObject.set('id', m.id); // You can add other attributes using set
+            marker.serviceObject.set('id', m.id); ***// You can add other attributes using set ***
             return marker;
         });
         handler.bounds.extendWith(markers);

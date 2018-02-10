@@ -1,4 +1,7 @@
 # google-maps-dynamic-markers
+
+**Version 1.0.0 ** 
+
 **Pre-requisites:** 
  
  You'll to add 'gmaps4rails' gem.  [here](https://github.com/apneadiving/Google-Maps-for-Rails).
@@ -88,3 +91,12 @@ this.buildMap = function(markers) {
 buildMap(#{raw @hash.to_json})
 
 ``` 
+
+
+---
+
+## Contributers
+
+- Waqar Hassan <whassan25@gmail.com>
+
+-----
